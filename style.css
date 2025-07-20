@@ -66,6 +66,7 @@ nav a:hover, nav a.active{
 @media(max-width:995px){
   nav{
     position: absolute;
+    display: none;
     top: 100%;
     right: 0;
     width: 40%;
@@ -214,7 +215,7 @@ span {
 
 @keyframes cursor{
   to{
-    border-left: 3px solid #ffffff;
+    border-left: 3px solid #b74b4b;
   }
 }
 
@@ -254,7 +255,7 @@ span {
   }
 
   .home-img img{
-    width: 700vh;
+    width: 70vw;
     margin-top: 4rem;
   }
 }
